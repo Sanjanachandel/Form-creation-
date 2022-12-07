@@ -1,0 +1,58 @@
+<doctype.html>
+<html>
+    <head>
+        <img src="C:\Users\HP\OneDrive\Desktop\html in lpu\doll1.jpg" width="100" height="100">
+        <body background="C:\Users\HP\OneDrive\Desktop\html in lpu\mount.jpeg" width="5000" height="5000"></body>
+        <title >FORM VALIDATION</title>
+        <style>
+            table,td{
+                border:2px solid black;
+            }
+        </style>
+        </head>
+        <body>
+        <form action="welcome.html" method="get" name="form1" onsubmit="return validate()">
+        <center>
+        <table>
+        <tr>
+            <td colspan="2"><center>Registration Form</center></td>
+        </tr>
+        <tr>
+            <td>Name</td>
+            <td><input type="text" id="user" name="user"></td>
+        </tr>
+        <tr>
+            <td>Email</td>
+            <td><input type="email" id="email" name="email"></td>
+        </tr>
+        <tr>
+            <td>Contact</td>
+            <td><input type="tel" id="contact" name="contact"></td>
+        </tr>
+        <tr>
+            <td>Password</td>
+            <td><input type="password" id="pass" name="pass"></td>
+        </tr>
+        <tr>
+            <td>Confirm Password</td>
+            <td><input type="password" id="cpass" name="cpass"></td>
+        </tr>
+        <tr>
+            <td>Gender</td>
+            <td><input type="radio" name="gender">male
+            <input type="radio" name="gender">female
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2"><input type="checkbox" id="check" name="check1"> I accept
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2"><center><input type="submit" value="submit"><input type="reset" value="reset"></center></td>
+        </tr>
+        </table>
+        
+        </center>
+        </form>
+        </body>
+    </html>
